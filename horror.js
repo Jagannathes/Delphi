@@ -3,7 +3,7 @@ async function hehe() {
     var k = document.getElementById("con");
     
     
-      var data = await fetch("https://www.googleapis.com/books/v1/volumes?q=subject:scary");
+      var data = await fetch("https://www.googleapis.com/books/v1/volumes?q=subject:Fantasy");
       const response =  await data.json();
    for (var i = 0; i < response.items.length; i+=1) {
    
