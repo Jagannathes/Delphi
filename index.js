@@ -75,5 +75,5 @@ async function hehehe() {
       </div>
      `;
      k.innerHTML+= htmlcard;
-
+     history.pushState(null,"","index.html#"+qr);
    }};
