@@ -74,6 +74,6 @@ async function hehehe() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere.<br></p>
       </div>
      `;
+     k.innerHTML+= htmlcard;
      
-     history.pushState(null,"","index.html#"+qr);
    }};
